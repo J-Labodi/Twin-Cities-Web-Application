@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group-xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="group_schema.xsd">
+    <!-- This file is an example of a valid group xml file. 
+    Use this example file as a template and fill with your own data  
+    validating as you go along using Oxygen or some other schema aware editor -->
+
+    <!-- The following is the assignment metadata (DO NOT CHANGE) -->
+    <module id="UFCFV4-30-2" acronymn="DSA">
+        <title>Data Schemas &amp; Applications</title>
+        <year>2021-22</year>
+        <hand_in>2022-03-03</hand_in>
+        <spec_url>https://fetstudy.uwe.ac.uk/~p-chatterjee/2021-22/modules/dsa/assignment/</spec_url>
+    </module>
+    <!-- end of metadata section -->
+
+    <!-- Group Section -->
+    <group id="D-03">
+        <member id="15003138" name="Callum Jones"/>
+        <member id="20020322" name="Connor MacKintosh"/>
+        <member id="20045364" name="Dikshyanta Uprety"/>
+        <member id="18026465" name="Jeno Labodi"/>
+        <workshop>
+            <daytime>Friday 15:00</daytime>
+            <tutor>JH</tutor>
+            <tutor>PC</tutor>
+        </workshop>
+        <!-- Each student should have contributed to one or more components -->
+        <component type="Database Design">
+            <contributor id="18026465"/>
+            <contributor id="14026542"/>
+            <contributor id="14011846"/>
+            <!-- the following text fields allow for between 80 and 5000 characters -->
+            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
+                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
+                felis. .... </description>
+            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
+                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
+                tempor felis.... </problems>
+            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
+                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis..... </solutions>
+            <!-- integer required between 1 and 120 -->
+            <hours_effort>12</hours_effort>
+        </component>
+        <component type="Database Implementation">
+            <contributor id="14026542"/>
+            <contributor id="14011846"/>
+            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
+                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
+                felis. .... </description>
+            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
+                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
+                tempor felis.... </problems>
+            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
+                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis..... </solutions>
+            <hours_effort>8</hours_effort>
+        </component>
+        <component type="HTML Design &amp; Markup">
+            <contributor id="18026465"/>
+            <contributor id="14026542"/>
+            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
+                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
+                felis. .... </description>
+            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
+                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
+                tempor felis.... </problems>
+            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
+                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis. .... </solutions>
+            <hours_effort>6</hours_effort>
+        </component>
+        <component type="PHP Coding">
+            <contributor id="18026465"/>
+            <description> Building our data driven web application required to create the main structure in PHP 
+                that consists of various functionalities such as displaying maps of the chosen twin cities, 
+                generating display of the current and forecast weather and representing a RSS feed related to 
+                the current dataset held in the database. The application also makes use of an additional configuration file 
+                coded in PHP that contains various application-wide data such as relevant information to complete API requests.
+                During development, the initially completed Twin Cities weather project given the starting point of 
+                the gradually extended, final web application. Obtaining the desired weather information from OpenWeatherMap required 
+                to generate the appropriate API call and access the requested XML data that may be displayed within the tables that 
+                have been generated in PHP via embedded HTML. The accessed data is stored in arrays and a fraction of the information
+                is defined as a constant, depending on the nature of the data. Data from XML requires formatting before it is presented
+                within the generated tables. Various PHP built in functions used to complete this task. Eventually, the completed 
+                weather application has been extended with the Twin Cities Map section that employs JavaScript. The team members have
+                equally divided the group tasks of the project followed by merging the Twin Cities Map and RSS feed components with 
+                the initially completed Weather section. GitHub employed to store the project files along with using a designated WhatsApp
+                group to discuss occurring obstacles during development or post updates on the progression
+                in the assigned tasks. </description>
+            <problems> The team members have not experienced any major obstacles during the development of the PHP code,
+                although implementing some features appeared to be more challenging than others. A great example for this is representing the
+                forecast data in the Twin Cities Weather section. The XML data related to the weather forecast contains live weather updates of
+                every 3 hours, although our design required to display the weather forecast of the upcoming 5 days, representing data related 
+                only to midday and midnight. </problems>
+            <solutions> Our PHP code includes a foreach loop that iterates through the forecast data presented in XML format, 
+                filters the midday and midnight forecast values via a selection that contains code to push the desired forecast data into the relevant array.
+                The content of these arrays may be accessed to represent the correct weather forecast of the upcoming 5 days, displaying only
+                the midday and midnight temperatures. </solutions>
+            <hours_effort>120</hours_effort>
+        </component>
+        <component type="Javascript / JSON Coding">
+            <contributor id="14011846"/>
+            <contributor id="14019850"/>
+            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
+                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
+                felis. .... </description>
+            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
+                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
+                tempor felis.... </problems>
+            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
+                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis..... </solutions>
+            <hours_effort>8</hours_effort>
+        </component>
+        <component type="CSS Design">
+            <contributor id="18026465"/>
+            <description> Initially, the project included an external CSS stylesheet that contained all the selectors and declarations to customise
+                the look of our web application. The layout has been divided into divisions within a “Wrapper” element that allows us to declare and position
+                the different blocks as inline-block. This layout design represented the twin cities alongside each other, providing appropriate arrangements
+                of the represented elements. This stylesheet also included various style declarations, targeting headings with different sizes, tables and
+                its elements and the representation of Twin Cities Maps. Designing the layout of the web application and styling its elements has been completed
+                by one group member that volunteered to improve the look of the web application.Eventually, this initially created CSS stylesheet has been discarded
+                as the design of the web application has been improved further by completing the individual task of refactoring the web application by applying 
+                responsive design through Bootstrap. </description>
+            <problems> The web application has not been responsive to different screen sizes and the targeted elements required a considerable amount of padding
+                to provide an acceptable overall look. Appropriately aligning the elements of the individual divisions without the employment of any specific CSS framework
+                appeared to be a truly challenging task. </problems>
+            <solutions> The front-end has been refactored to be responsive within one of the selected individual tasks. Utilising Bootstrap framework
+                allowed us to easily obtain changes in design by targeting specific divisions of the web application through the predefined
+                classes of Bootstrap. </solutions>
+            <hours_effort>80</hours_effort>
+        </component>
+    </group>
+
+
+    <!-- This section lists the techohnolgies used and mentions any number of source files.-->
+    <application>
+        <!-- a list of up to 8 technologies used (see schema) -->
+        <technologies>
+            <tech>php</tech>
+            <tech>html5</tech>
+            <tech>xml</tech>
+        </technologies>
+        <source_files>
+            <!-- up to 12 files -->
+            <file>
+                <name>index.php</name>
+                <purpose>main application file</purpose>
+            </file>
+            <file>
+                <name>config.php</name>
+                <purpose>configuration file</purpose>
+            </file>
+            <file>
+                <name>dsa_utility.php</name>
+                <purpose>holds required functions</purpose>
+            </file>
+        </source_files>
+    </application>
+
+    <!-- something about any learning outcomes achieved and any other overall comments -->
+    <overall_comments> 
+        The group members have gained a solid base of knowledge in the process of designing databases and implementing it within a web based application.
+        We have successfully gained an understanding of Conceptual and Logical ER models including the identification and representation of entities, attributes and relationships.
+        The team members have also gained  a great amount of experience in database implementation and working with external APIs. 
+        As for the programming languages that we utilised for this project, the majority of team members did not have any prior experience in PHP
+        and developing the backbone of our web application in this language helped us to gain a comprehensive understanding of its syntax and the potential of
+        utilising PHP in web development.
+    </overall_comments>
+</group-xml>
+<!-- DSA Assignment Group XML File Example, 2021-22 -->
+<!-- author: prakash.chatterjee@uwe.ac.uk -->
