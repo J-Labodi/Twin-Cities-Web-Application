@@ -28,18 +28,24 @@
         <!-- Each student should have contributed to one or more components -->
         <component type="Database Design">
             <contributor id="18026465"/>
-            <contributor id="14026542"/>
+            <contributor id="15003138"/>
             <contributor id="14011846"/>
-            <!-- the following text fields allow for between 80 and 5000 characters -->
-            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
-                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
-                felis. .... </description>
-            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
-                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
-                tempor felis.... </problems>
-            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
-                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis..... </solutions>
-            <!-- integer required between 1 and 120 -->
+            <description> Our database design consists of two elements, a conceptual ER model and a logical ER model.
+                Our conceptual entity-relationship model has four entities of city, image, category and point of
+                interest. These entities contain a range of attributes which have been designed to hold a
+                collection of data about our twin cities and their places of interest. The conceptual model
+                also specifies the relationship and cardinality between the entities using crow’s foot notation.
+                Our logical entity-relationship model develops the conceptual model by identifying primary keys
+                to uniquely identify entity instances and foreign keys to complete associations between entities.
+                In our logical model we also set attribute types and length ranges and resolved the many-to-many
+                relationship between category and places of interest using a join table. The team worked
+                collaboratively using Lucidchart to develop our entity-relationship models and used team
+                meetings to agree on the design of our database. </description>
+            <problems> During the initial stages of designing our conceptual model, the team considered using a
+                range of entities which didn’t entirely consider the context of our data for our chosen twin cities. </problems>
+            <solutions> The team reconsidered the distinction between what constitutes an entity and an attribute,
+                and realised our initial consideration of entities would have made the modification of our database
+                complex. We therefore proceeded with entities in our conceptual model to correct this. </solutions>
             <hours_effort>12</hours_effort>
         </component>
         <component type="Database Implementation">
