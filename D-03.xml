@@ -30,11 +30,12 @@
             <contributor id="18026465"/>
             <contributor id="15003138"/>
             <contributor id="14011846"/>
+            <contributor id="20020322"/>
             <description> Our database design consists of two elements, a conceptual ER model and a logical ER model.
                 Our conceptual entity-relationship model has four entities of city, image, category and point of
                 interest. These entities contain a range of attributes which have been designed to hold a
                 collection of data about our twin cities and their places of interest. The conceptual model
-                also specifies the relationship and cardinality between the entities using crow’s foot notation.
+                also specifies the relationship and cardinality between the entities using crows foot notation.
                 Our logical entity-relationship model develops the conceptual model by identifying primary keys
                 to uniquely identify entity instances and foreign keys to complete associations between entities.
                 In our logical model we also set attribute types and length ranges and resolved the many-to-many
@@ -42,28 +43,33 @@
                 collaboratively using Lucidchart to develop our entity-relationship models and used team
                 meetings to agree on the design of our database. </description>
             <problems> During the initial stages of designing our conceptual model, the team considered using a
-                range of entities which didn’t entirely consider the context of our data for our chosen twin cities. </problems>
+                range of entities which didnt entirely consider the context of our data for our chosen twin cities. </problems>
             <solutions> The team reconsidered the distinction between what constitutes an entity and an attribute,
                 and realised our initial consideration of entities would have made the modification of our database
                 complex. We therefore proceeded with entities in our conceptual model to correct this. </solutions>
             <hours_effort>12</hours_effort>
         </component>
         <component type="Database Implementation">
-            <contributor id="14026542"/>
+            <contributor id="20020322"/>
+            <contributor id="18026465"/>
+            <contributor id="15003138"/>
             <contributor id="14011846"/>
-            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
-                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
-                felis. .... </description>
-            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
-                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
-                tempor felis.... </problems>
-            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
-                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis..... </solutions>
-            <hours_effort>8</hours_effort>
+            <description> The database we chose for our project was MYSQL the database would be hosted on our server using phpMyAdmin.
+            MYSQL was chosen because of its capabilities to use PHP and JavaScript requests and to be able to push data to the 
+            database using PHP. After the database design, it was simple to implement, we just had to make sure all the data fields,
+            table names and column IDs matched up. After this, each team member was tasked with finding data for each point of interest. 
+            Once all the data was gathered it was imported into phpMyAdmin. Another database was created at a later date to hold the Flickr 
+            cached results. </description>
+            <problems>Getting to know how to use phpMyAdmin took a little bit of time. For example, changing the structure 
+            and alerting table data is different to MYSQL workbench. Another problem occurred when trying to push the Flickr cached data.</problems>
+            <solutions> The solution to working out phpMyAdmin was soon resolved with some research on YouTube. The Flickr cache was resolved 
+            by looking at some online blogs for advice. </solutions>
+            <hours_effort>12</hours_effort>
         </component>
         <component type="HTML Design &amp; Markup">
             <contributor id="18026465"/>
             <contributor id="14026542"/>
+            <contributor id="20020322"/>
             <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
                 pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
                 felis. .... </description>
@@ -103,17 +109,30 @@
             <hours_effort>120</hours_effort>
         </component>
         <component type="Javascript / JSON Coding">
-            <contributor id="14011846"/>
-            <contributor id="14019850"/>
-            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
-                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
-                felis. .... </description>
-            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
-                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
-                tempor felis.... </problems>
-            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
-                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis..... </solutions>
-            <hours_effort>8</hours_effort>
+            <contributor id="20020322"/>
+            <description> JavaScript has been used in the development of our group project. Its main use in our project was to display 
+            a map for both our chosen twin cities. By taking advantage of Google maps API and its libraries our team was able to 
+            display maps of both Birmingham and Chicago. These maps were also able to display markers for various points of interest, 
+            the markers then have the capabilities to display information from the database when a mouse hovers over it. 
+            Another function was the ability to redirect a user to separate HTML page that displays a picture and information 
+            about the particular place. Another use of JavaScript and Google maps libraries was to disable some of the user interface
+            functions to help avoid errors and increase user experience. These functions would not have been possible without the use 
+            of JavaScript Listener functions. AJAX has also been used in the project to pull in data from a JSON file that was pulled 
+            from the database on the server to finally be displayed on the webpage. JSON has been used throughout the project.
+            Having this tool allowed our team to easily pull data from the database, push data to the database and manage, 
+            access data with ease. JSON has been used both within JavaScript files and PHP with the use of these languages built-in functions.
+            </description>
+            <problems> Most team members had very little JavaScript knowledge at the beginning of the project. A lot of research was
+            done into JavaScripts capabilities its syntax and how it could be implemented into our project. More problems arose when 
+            incorporating APIs an example of this would have been when trying to displays two maps at the same time from one API call. 
+            Some other problems occurred when JSON data that had been pulled from the database was to be displayed on the webpage. 
+            The only problem with JSON was a bit of research was needed to understand how specific data can be accessed within the JSON object.  </problems>
+            <solutions> The solutions to our project were soon resolved when the team sat down and worked them out together. 
+            The solution we had displaying two maps at once was to get around the clashing API call by putting a call to both 
+            map calls into a single function then calling it once. We solved the issue regarding displaying our JSON data on the 
+            webpage by researching AJAX. We used internet tutorials and blogs in our research. After some W3C schools research was 
+            done we were soon able to gain the necessary knowledge about JSON for our project. </solutions>
+            <hours_effort>60</hours_effort>
         </component>
         <component type="CSS Design">
             <contributor id="18026465"/>
