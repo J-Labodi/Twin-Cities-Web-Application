@@ -82,6 +82,7 @@
         </component>
         <component type="PHP Coding">
             <contributor id="18026465"/>
+            <contributor id="20020322"/>
             <description> Building our data driven web application required to create the main structure in PHP that consists of 
                 various functionalities such as generating display of the current and forecast weather as well as representing 
                 an RSS feed related to the current dataset held in the database. Our PHP code also includes an additional flickr.php file
@@ -162,6 +163,11 @@
             <tech>php</tech>
             <tech>html5</tech>
             <tech>xml</tech>
+            <tech>javascript</tech>
+            <tech>json</tech>
+            <tech>css</tech>
+            <tech>rss</tech>
+            <tech>sql</tech>
         </technologies>
         <source_files>
             <!-- up to 12 files -->
@@ -177,6 +183,10 @@
                 <name>dsa_utility.php</name>
                 <purpose>holds required functions</purpose>
             </file>
+            <file>
+                <name>googlemaps.js</name>
+                <purpose>holds all the logic required to display the google maps to the index.php file</purpose>
+            </file>
         </source_files>
     </application>
 
@@ -190,5 +200,10 @@
         utilising PHP in web development.
     </overall_comments>
 </group-xml>
-<!-- DSA Assignment Group XML File Example, 2021-22 -->
-<!-- author: prakash.chatterjee@uwe.ac.uk -->
+<!-- DSA Assignment Group D-03 XML File, 2022 -->
+<!-- author's: 
+        connor2.mackintosh@live.uwe.ac.uk
+        jeno2.labodi@live.uwe.ac.uk
+        callum9.jones@live.uwe.ac.uk
+        dikshyanta2.Uprety@live.uwe.ac.uk>
+-->
