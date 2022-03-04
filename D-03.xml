@@ -70,15 +70,14 @@
             <contributor id="18026465"/>
             <contributor id="14026542"/>
             <contributor id="20020322"/>
-            <description> Sed eu nunc ipsum, nec suscipit lectus. Quisque quis nibh at sem dictum
-                pretium. Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor
-                felis. .... </description>
-            <problems> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis
-                lacinia porttitor. Pellentesque augue mauris, lobortis vel elementum quis, consequat
-                tempor felis.... </problems>
-            <solutions> Integer dictum diam id ligula aliquet sed dapibus nibh elementum.
-                Pellentesque augue mauris, lobortis vel elementum quis, consequat tempor felis. .... </solutions>
-            <hours_effort>6</hours_effort>
+            <description> Different sections of the project are displayed in HTML pages. However, none of the files are purely HTML, meaning that they all have either JavaScript or PHP embedded to generate the contents within them. The HTML used in the project is consistent with the W3C standards and have been verified using the W3C’s online validator.
+                The HTML documents start by declaring the type of document (HTML), and also contain the metadata such as the character-set (UTF-8) and language (English) in the head section. The content (image, links, blocks of text, etc.) is displayed on the main part of the page(body). The styling of the HTML pages is done in separate files and can be found in the same directory with the css file extension.
+            </description>
+            <problems> While generating HTML content using PHP or JavaScript, the html tags were not as meticulously implemented in the beginning as would be in a pure HTML page.
+                This caused some problems while styling later, as the parts of the page could not be selected using css.
+            </problems>
+            <solutions>The team changed the scripts so that they would include relevant html tags alongside the content in the page so that they can later be selected and styled using css.</solutions>
+            <hours_effort>8</hours_effort>
         </component>
         <component type="PHP Coding">
             <contributor id="18026465"/>
