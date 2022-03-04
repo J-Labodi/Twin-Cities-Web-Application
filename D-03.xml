@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <group-xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:noNamespaceSchemaLocation="group_schema.xsd">
-    <!-- This file is an example of a valid group xml file. 
-    Use this example file as a template and fill with your own data  
-    validating as you go along using Oxygen or some other schema aware editor -->
-
-    <!-- The following is the assignment metadata (DO NOT CHANGE) -->
     <module id="UFCFV4-30-2" acronymn="DSA">
         <title>Data Schemas &amp; Applications</title>
         <year>2021-22</year>
         <hand_in>2022-03-03</hand_in>
         <spec_url>https://fetstudy.uwe.ac.uk/~p-chatterjee/2021-22/modules/dsa/assignment/</spec_url>
     </module>
-    <!-- end of metadata section -->
-
-    <!-- Group Section -->
     <group id="D-03">
         <member id="15003138" name="Callum Jones"/>
         <member id="20020322" name="Connor MacKintosh"/>
@@ -25,11 +17,10 @@
             <tutor>JH</tutor>
             <tutor>PC</tutor>
         </workshop>
-        <!-- Each student should have contributed to one or more components -->
         <component type="Database Design">
             <contributor id="18026465"/>
             <contributor id="15003138"/>
-            <contributor id="14011846"/>
+            <contributor id="20045364"/>
             <contributor id="20020322"/>
             <description> Our database design consists of two elements, a conceptual ER model and a logical ER model.
                 Our conceptual entity-relationship model has four entities of city, image, category and point of
@@ -53,7 +44,7 @@
             <contributor id="20020322"/>
             <contributor id="18026465"/>
             <contributor id="15003138"/>
-            <contributor id="14011846"/>
+            <contributor id="20045364"/>
             <description> The database we chose for our project was MYSQL the database would be hosted on our server using phpMyAdmin.
             MYSQL was chosen because of its capabilities to use PHP and JavaScript requests and to be able to push data to the 
             database using PHP. After the database design, it was simple to implement, we just had to make sure all the data fields,
@@ -68,8 +59,9 @@
         </component>
         <component type="HTML Design &amp; Markup">
             <contributor id="18026465"/>
-            <contributor id="14026542"/>
+            <contributor id="20045364"/>
             <contributor id="20020322"/>
+            <contributor id="15003138"/>
             <description> Different sections of the project are displayed in HTML pages. However, none of the files are purely HTML, meaning that they all have either JavaScript or PHP embedded to generate the contents within them. The HTML used in the project is consistent with the W3C standards and have been verified using the W3C’s online validator.
                 The HTML documents start by declaring the type of document (HTML), and also contain the metadata such as the character-set (UTF-8) and language (English) in the head section. The content (image, links, blocks of text, etc.) is displayed on the main part of the page(body). The styling of the HTML pages is done in separate files and can be found in the same directory with the css file extension.
             </description>
@@ -82,6 +74,8 @@
         <component type="PHP Coding">
             <contributor id="18026465"/>
             <contributor id="20020322"/>
+            <contributor id="15003138"/>
+            <contributor id="20045364"/>
             <description> Building our data driven web application required to create the main structure in PHP that consists of 
                 various functionalities such as generating display of the current and forecast weather as well as representing 
                 an RSS feed related to the current dataset held in the database. Our PHP code also includes an additional flickr.php file
@@ -153,11 +147,7 @@
             <hours_effort>80</hours_effort>
         </component>
     </group>
-
-
-    <!-- This section lists the techohnolgies used and mentions any number of source files.-->
     <application>
-        <!-- a list of up to 8 technologies used (see schema) -->
         <technologies>
             <tech>php</tech>
             <tech>html5</tech>
@@ -169,9 +159,8 @@
             <tech>sql</tech>
         </technologies>
         <source_files>
-            <!-- up to 12 files -->
             <file>
-                <name>index.php</name>
+                <name>cwresponsive.php</name>
                 <purpose>main application file</purpose>
             </file>
             <file>
@@ -186,10 +175,20 @@
                 <name>googlemaps.js</name>
                 <purpose>holds all the logic required to display the google maps to the index.php file</purpose>
             </file>
+            <file>
+                <name>rss.php</name>
+                <purpose>generates a dynamic rss feed generated from the database dsa_twincities</purpose>
+            </file>
+            <file>
+                <name>conceptual.pdf</name>
+                <purpose>pdf of our database conceptual model</purpose>
+            </file>
+            <file>
+                <name>logical.pdf</name>
+                <purpose>pdf of our database logical model</purpose>
+            </file>
         </source_files>
     </application>
-
-    <!-- something about any learning outcomes achieved and any other overall comments -->
     <overall_comments> 
         The group members have gained a solid base of knowledge in the process of designing databases and implementing it within a web based application.
         We have successfully gained an understanding of Conceptual and Logical ER models including the identification and representation of entities, attributes and relationships.
