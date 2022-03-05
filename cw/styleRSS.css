@@ -1,0 +1,76 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.container{
+  border:  ridge rgba(158, 158, 158, 0.589) 5px;
+  background-color: rgb(236, 236, 236);
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(163, 163, 163, 0.781);
+  font-size: 50px;
+  margin-top: auto;
+}
+
+.rss-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rss-table td,
+.rss-table th {
+  margin-left: 50px;
+}
+.rss-table tr{
+  font-weight: bold;
+  padding: 20px;
+}
+
+.rss-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+.name{
+  font-size: 30px;
+  margin-top: 60px;
+
+}
+.title{
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.type{
+  font-size: 20px;
+}
+
+img{
+  vertical-align: middle;
+  border: 1px solid rgba(51, 50, 50, 0.185);
+  border-radius: 4px;
+  padding: 5px;
+}
+td{
+  background-color: rgb(236, 236, 236);
+}
+#mydiv{
+  padding-left: 5px;
+}
+a:link {
+  text-decoration: none;
+}
+#homelink{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 5px;
+}
+a{
+  color: rgb(13, 110, 253);
+}
