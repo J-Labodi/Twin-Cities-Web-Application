@@ -94,10 +94,6 @@ $forecastxml = simplexml_load_file($birmingham["WFORECAST_URL"]) or die("Error: 
 $midday = "12:00:00";
 $midnight = "00:00:00";
 
-// Assigment for value comparison within the selection in the loop for Chicago
-$midday2 = "12:00:00";
-$midnight2 = "00:00:00";
-
 // Define various constants to store current weather data for birmingham
 define ('SUNRISE',$xml->city->sun['rise']);
 define ('SUNSET',$xml->city->sun['set']);
@@ -115,6 +111,10 @@ $weathercode2 = $xml2->weather['icon'];                                         
 $weathericonurl2 = 'http://openweathermap.org/img/wn/'.$weathercode2.'@2x.png';     // Obtain weather icon through URL
 
 $forecastxml2 = simplexml_load_file($chicago["WFORECAST_URL"]) or die("Error: Cannot create object(forecast)");  // Load the XML file into an object to access weather forecast            
+
+// Assigment for value comparison within the selection in the loop for Chicago
+$midday2 = "12:00:00";
+$midnight2 = "00:00:00";
 
 // Define various constants to store current weather data for chicago
 define ('SUNRISE2',$xml2->city->sun['rise']);
