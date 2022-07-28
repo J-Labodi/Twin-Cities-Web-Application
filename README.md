@@ -4,6 +4,8 @@ The aim of the project is to..
 
 ## Project Description
 
+Images of ER diagram
+
 ### Components of the application
 
 ## Screenshots
