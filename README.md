@@ -6,6 +6,12 @@ The aim of the project is to..
 
 Images of ER diagram
 
+![DSA_ERD - ERD - Conceptual](https://user-images.githubusercontent.com/79979904/181908745-6f392428-cbc0-4e1c-91fa-95372f367c16.png)
+
+
+![DSA_ERD - ERD - Logical](https://user-images.githubusercontent.com/79979904/181908749-3d12c7b6-114c-41d7-8f15-026927cfeb1c.png)
+
+
 ### Components of the application
 
 ## Screenshots
