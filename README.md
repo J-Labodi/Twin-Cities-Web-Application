@@ -36,4 +36,3 @@ Images of ER diagram
 
 ## Run the application locally
 
-## Extension of the application  
