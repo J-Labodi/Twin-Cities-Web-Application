@@ -12,6 +12,7 @@ The project’s initial aim was to develop a responsive weather application for 
 The completed Twin Cities weather application utilizes Open Weather Map API to represent real-time weather data as well as a 5 days forecast. Subsequently, the application has been refactored to employ Google Map API to display the twin cities’ maps. The embedded maps include a range of selected points of interest that are stored in the application’s relational database. Prior to developing the application’s back-end, the developer team has designed conceptual and logical ER diagrams to illustrate the logical structure of the application’s database.           
 
 ## Screenshots
+### Representation of current weather and 5 days forecast
 
 ![Index](https://user-images.githubusercontent.com/79979904/181588311-492b1fd2-a9e8-4b47-a582-0092c056f6c9.PNG)
 
