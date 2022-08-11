@@ -23,6 +23,8 @@ The completed Twin Cities weather application utilizes Open Weather Map API to r
 
 ![index5](https://user-images.githubusercontent.com/79979904/181588404-79bb20b6-c13d-4837-bc62-181383aa9df5.PNG)
 
+### RSS Feed
+
 ![rss1](https://user-images.githubusercontent.com/79979904/181588411-3b875bd2-2c9c-4067-a3b9-13c879996050.PNG)
 
 ![rss2](https://user-images.githubusercontent.com/79979904/181588421-f969573b-a948-4c15-bab0-cb640a7083cc.PNG)
