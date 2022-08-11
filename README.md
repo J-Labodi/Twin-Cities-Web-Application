@@ -54,7 +54,7 @@ In order to run the Twin Cities application in a local environment, complete the
 
 1. Utilize dsa_twincities and flickr_cache databases (SQL files can be found in / db directory)
 2. Provide your database parameters in the config.php file (Line 17 – 20, Line 135)
-3. Create a new empty folder in the main directory, named: xml-files
+3. Create a new empty folder in the root directory, named: xml-files
 4. Run the index.php file on localhost
 
 
