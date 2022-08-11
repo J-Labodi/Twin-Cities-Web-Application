@@ -2,10 +2,10 @@
 
 The project’s initial aim was to develop a responsive weather application for a chosen pair of twin cities: Birmingham & Chicago. Subsequently, the application has been extended with a range of features such as;
 
-•	Twin Cities Map to display the twin cities on dynamic maps, including a range of POIs 
-•	Twin Cities Images to display relevant images of the cities from Flickr
-•	Upload your photo section to allow the user to upload their own images 
-•	Twin Cities RSS feed to represent data from the application’s database
+•	Twin Cities Map to display the twin cities on dynamic maps, including a range of POIs\ 
+•	Twin Cities Images to display relevant images of the cities from Flickr\
+•	Upload your photo section to allow the user to upload their own images\
+•	Twin Cities RSS feed to represent data from the application’s database\
 
 ## Project Description
 
