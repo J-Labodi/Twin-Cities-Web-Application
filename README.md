@@ -1,8 +1,15 @@
 # Twin-Cities-Web-Application
 
-The aim of the project is to..
+The project’s initial aim was to develop a responsive weather application for a chosen pair of twin cities: Birmingham & Chicago. Subsequently, the application has been extended with a range of features such as;
+
+•	Twin Cities Map to display the twin cities on dynamic maps, including a range of POIs 
+•	Twin Cities Images to display relevant images of the cities from Flickr
+•	Upload your photo section to allow the user to upload their own images 
+•	Twin Cities RSS feed to represent data from the application’s database
 
 ## Project Description
+
+The completed Twin Cities weather application utilizes Open Weather Map API to represent real-time weather data as well as a 5 days forecast. Subsequently, the application has been refactored to employ Google Map API to display the twin cities’ maps. The embedded maps include a range of selected points of interest that are stored in the application’s relational database. Prior to developing the application’s back-end, the developer team has designed conceptual and logical ER diagrams to illustrate the logical structure of the application’s database.           
 
 Images of ER diagram
 
